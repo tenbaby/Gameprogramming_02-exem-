@@ -768,7 +768,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34e55ca37ac6d6440a5b84860e87d255, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiles:
+  floor:
   - {fileID: 1323194413}
   - {fileID: 38055898}
   - {fileID: 831238550}
@@ -780,7 +780,7 @@ MonoBehaviour:
   - {fileID: 2032279840}
   - {fileID: 109171902}
   - {fileID: 592761135}
-  groundlmg:
+  ground:
   - {fileID: 21300000, guid: d77e3f957ec5f154fa8eb9a8e54ecdd0, type: 3}
   speed: 3
 --- !u!4 &517322920
@@ -2341,7 +2341,7 @@ MonoBehaviour:
   MobPool: []
   Mobs:
   - {fileID: 7282426407006135138, guid: 8e922273306ddc84f90e3e57113b03d3, type: 3}
-  objCnt: 100
+  obj: 100
 --- !u!4 &2093688101
 Transform:
   m_ObjectHideFlags: 0
